@@ -17,6 +17,11 @@ function PrintDeveloperbyForEach() {
 
 function addData() {
   //Write your code here, just console.log
+  let data = [
+    { id:4, name: "susan", age: "20", profeesion: "intern" }
+  ];
+   arr.push(data);
+  console.log(arr);
 }
 
 function removeAdmin() {
