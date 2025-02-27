@@ -32,6 +32,8 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here, just console.log
+  arr = arr.filter((person) => person.profession !== "admin");
+  console.log(arr);
 }
 
 function concatenateArray() {
