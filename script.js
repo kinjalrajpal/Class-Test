@@ -8,6 +8,7 @@ let arr = [
 
 function PrintDeveloperbyMap() {
   //Write your code here , just console.log
+
 }
 
 function PrintDeveloperbyForEach() {
@@ -24,4 +25,10 @@ function removeAdmin() {
 
 function concatenateArray() {
   //Write your code here, just console.log
+  let newArr = [
+    { id: 12, name: "abcd", age: "21", profession: "Project Manager"},
+    { id: 15, name: "efgh", age: "22", profession: "Manager"},
+  ];
+  let concatArray = arr.concat(newArr);
+  console.log(concatArray);
 }
